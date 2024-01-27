@@ -1,0 +1,147 @@
+// font link //
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-color: $bgcolor;
+  header {
+    padding-top: 21px;
+    padding-bottom: 42px;
+    .container {
+      @include mycontainer;
+      @include myflex;
+      ul {
+        @include myflex;
+        gap: 35px;
+        margin-right: 29px;
+        a {
+          @include maintheme;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+  .sec-1 {
+    margin-bottom: 37px;
+    .heading {
+      @include maintheme;
+      font-size: 24px;
+      margin-bottom: 27px;
+    }
+    .container {
+      @include mycontainer;
+
+      .cards {
+        @include myflex;
+        justify-content: space-between;
+        .image-box2 {
+          background-image: url(/images/ocean.svg);
+          background-repeat: no-repeat;
+          height: 186px;
+          h3 {
+            @include h3style;
+          }
+        }
+        .image-box3 {
+          background-image: url(/images/ice-ocean.svg);
+          background-repeat: no-repeat;
+          height: 186px;
+          h3 {
+            @include h3style;
+          }
+        }
+        .card {
+          width: 362px;
+          .image-box1 {
+            background-image: url(/images/beach.svg);
+            background-repeat: no-repeat;
+            height: 186px;
+            h3 {
+              @include h3style;
+            }
+          }
+          .time-box {
+            @include myflex;
+            gap: 11px;
+            margin-top: 11px;
+          }
+          .text {
+            padding: 68px 87px 41px 37px;
+            border-radius: 0px 0px 5px 5px;
+            background: #fff;
+            p,
+            span {
+              @include maintheme;
+              color: #8a8787;
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sec-2 {
+    margin-bottom: 32px;
+    .container {
+      @include mycontainer;
+
+      .heading {
+        @include maintheme;
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+      .image-container {
+        @include myflex;
+        align-items: flex-start;
+        .left-box {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 42px;
+          margin-right: 45px;
+          .bridge {
+            background-image: url(/images/bridge.svg);
+            width: 758px;
+            height: 430px;
+            @include myflex;
+            justify-content: center;
+            p {
+              @include maintheme;
+              font-size: 20px;
+              color: #fff;
+            }
+          }
+        }
+        .right-box {
+          @include myflex;
+          flex-direction: column;
+          gap: 100px;
+        }
+      }
+    }
+  }
+  footer {
+    background-color: $footercolor;
+    padding-top: 59px;
+    padding-bottom: 44px;
+    .container {
+      @include mycontainer;
+      @include myflex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      .list {
+        @include myflex;
+        gap: 110px;
+        align-items: flex-start;
+        a {
+          @include maintheme;
+          font-size: 12px;
+          color: #818687;
+        }
+        p{
+            color: #FFF;
+        }
+      }
+    }
+  }
+}

@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -58,4 +59,202 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  background-color: #F1F1F1;
+}
+body header {
+  padding-top: 21px;
+  padding-bottom: 42px;
+}
+body header .container {
+  max-width: 1165px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+body header .container ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-right: 29px;
+}
+body header .container ul a {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  font-size: 11px;
+}
+body .sec-1 {
+  margin-bottom: 37px;
+}
+body .sec-1 .heading {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  font-size: 24px;
+  margin-bottom: 27px;
+}
+body .sec-1 .container {
+  max-width: 1165px;
+  width: 100%;
+  margin: 0 auto;
+}
+body .sec-1 .container .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .sec-1 .container .cards .image-box2 {
+  background-image: url(/images/ocean.svg);
+  background-repeat: no-repeat;
+  height: 186px;
+}
+body .sec-1 .container .cards .image-box2 h3 {
+  font-size: 20px;
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  padding-left: 41px;
+  padding-top: 32px;
+}
+body .sec-1 .container .cards .image-box3 {
+  background-image: url(/images/ice-ocean.svg);
+  background-repeat: no-repeat;
+  height: 186px;
+}
+body .sec-1 .container .cards .image-box3 h3 {
+  font-size: 20px;
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  padding-left: 41px;
+  padding-top: 32px;
+}
+body .sec-1 .container .cards .card {
+  width: 362px;
+}
+body .sec-1 .container .cards .card .image-box1 {
+  background-image: url(/images/beach.svg);
+  background-repeat: no-repeat;
+  height: 186px;
+}
+body .sec-1 .container .cards .card .image-box1 h3 {
+  font-size: 20px;
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  padding-left: 41px;
+  padding-top: 32px;
+}
+body .sec-1 .container .cards .card .time-box {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-top: 11px;
+}
+body .sec-1 .container .cards .card .text {
+  padding: 68px 87px 41px 37px;
+  border-radius: 0px 0px 5px 5px;
+  background: #fff;
+}
+body .sec-1 .container .cards .card .text p,
+body .sec-1 .container .cards .card .text span {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  color: #8a8787;
+  font-size: 10px;
+}
+body .sec-2 {
+  margin-bottom: 32px;
+}
+body .sec-2 .container {
+  max-width: 1165px;
+  width: 100%;
+  margin: 0 auto;
+}
+body .sec-2 .container .heading {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+body .sec-2 .container .image-container {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+}
+body .sec-2 .container .image-container .left-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 42px;
+  margin-right: 45px;
+}
+body .sec-2 .container .image-container .left-box .bridge {
+  background-image: url(/images/bridge.svg);
+  width: 758px;
+  height: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .sec-2 .container .image-container .left-box .bridge p {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  font-size: 20px;
+  color: #fff;
+}
+body .sec-2 .container .image-container .right-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+body footer {
+  background-color: #243043;
+  padding-top: 59px;
+  padding-bottom: 44px;
+}
+body footer .container {
+  max-width: 1165px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+body footer .container .list {
+  display: flex;
+  align-items: center;
+  gap: 110px;
+  align-items: flex-start;
+}
+body footer .container .list a {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  font-size: 12px;
+  color: #818687;
+}
+body footer .container .list p {
+  color: #FFF;
 }/*# sourceMappingURL=global.css.map */

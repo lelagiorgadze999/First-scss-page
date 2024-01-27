@@ -1,0 +1,22 @@
+@mixin mycontainer {
+  max-width: 1165px;
+  width: 100%;
+  margin: 0 auto;
+}
+@mixin myflex {
+  display: flex;
+  align-items: center;
+}
+@mixin maintheme {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin h3style{
+    font-size: 20px;
+              @include maintheme;
+              color: #fff;
+              padding-left: 41px;
+              padding-top: 32px;
+}
