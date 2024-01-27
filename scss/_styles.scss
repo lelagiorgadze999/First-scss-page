@@ -34,7 +34,7 @@ body {
         @include myflex;
         justify-content: space-between;
         .image-box2 {
-          background-image: url(/images/ocean.svg);
+          background-image: url(./images/ocean.svg);
           background-repeat: no-repeat;
           height: 186px;
           h3 {
@@ -42,7 +42,7 @@ body {
           }
         }
         .image-box3 {
-          background-image: url(/images/ice-ocean.svg);
+          background-image: url(./images/ice-ocean.svg);
           background-repeat: no-repeat;
           height: 186px;
           h3 {
@@ -52,7 +52,7 @@ body {
         .card {
           width: 362px;
           .image-box1 {
-            background-image: url(/images/beach.svg);
+            background-image: url(./images/beach.svg);
             background-repeat: no-repeat;
             height: 186px;
             h3 {
@@ -99,7 +99,7 @@ body {
           gap: 42px;
           margin-right: 45px;
           .bridge {
-            background-image: url(/images/bridge.svg);
+            background-image: url(./images/bridge.svg);
             width: 758px;
             height: 430px;
             @include myflex;

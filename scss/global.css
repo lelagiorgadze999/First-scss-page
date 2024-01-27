@@ -110,7 +110,7 @@ body .sec-1 .container .cards {
   justify-content: space-between;
 }
 body .sec-1 .container .cards .image-box2 {
-  background-image: url(/images/ocean.svg);
+  background-image: url(./images/ocean.svg);
   background-repeat: no-repeat;
   height: 186px;
 }
@@ -125,7 +125,7 @@ body .sec-1 .container .cards .image-box2 h3 {
   padding-top: 32px;
 }
 body .sec-1 .container .cards .image-box3 {
-  background-image: url(/images/ice-ocean.svg);
+  background-image: url(./images/ice-ocean.svg);
   background-repeat: no-repeat;
   height: 186px;
 }
@@ -143,7 +143,7 @@ body .sec-1 .container .cards .card {
   width: 362px;
 }
 body .sec-1 .container .cards .card .image-box1 {
-  background-image: url(/images/beach.svg);
+  background-image: url(./images/beach.svg);
   background-repeat: no-repeat;
   height: 186px;
 }
@@ -206,7 +206,7 @@ body .sec-2 .container .image-container .left-box {
   margin-right: 45px;
 }
 body .sec-2 .container .image-container .left-box .bridge {
-  background-image: url(/images/bridge.svg);
+  background-image: url(./images/bridge.svg);
   width: 758px;
   height: 430px;
   display: flex;
